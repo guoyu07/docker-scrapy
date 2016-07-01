@@ -9,8 +9,8 @@ RUN apt-get install python python-pip libxml2-dev  libxslt1-dev python-dev zlib1
 
 RUN pip install virtualenv 
 
-RUN pip install readability-lxml scrapy
-RUN pip3 install readability-lxml scrapy
+RUN pip install readability-lxml scrapy  pysolr
+RUN pip3 install readability-lxml scrapy pysolr
  
  
 WORKDIR /app
